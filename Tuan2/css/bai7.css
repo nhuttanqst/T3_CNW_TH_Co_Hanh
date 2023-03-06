@@ -1,0 +1,29 @@
+.main {
+    width: 50%;
+    margin: 0 auto;
+}
+
+img {
+    width: 65px;
+    height: 70px;
+}
+
+p {
+    text-align: justify;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.start {
+    align-items: flex-start;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
