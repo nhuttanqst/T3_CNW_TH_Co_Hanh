@@ -409,6 +409,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
     margin-top: 10px;
 }
 
@@ -419,4 +420,9 @@ body {
     color: #7C8493;
     background-color: #F3F4F6;
     width: 320px;
+}
+
+.bot .bot-item .bi-input i {
+    position: absolute;
+    right: 70px;
 }
