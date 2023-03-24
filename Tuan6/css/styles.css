@@ -8,6 +8,10 @@ body {
     font-family: sans-serif;
 }
 
+hr {
+    border: 1.5px solid #f7f7f7;    
+}
+
 .container {
     width: 1450px;
     margin: 0 auto;
@@ -173,6 +177,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    margin-bottom: 45px;
 }
 
 .main .product-description .pd-left {
@@ -310,3 +315,108 @@ body {
     background-color: #fff;
     color: #4dd1e2;
 }
+
+.main .reviews {
+    padding: 52px 0;
+}
+
+.main .reviews .reviews-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+
+.main .reviews .reviews-title .rt-left {
+    display: flex;
+    align-items: center;
+}
+
+.main .reviews .reviews-title .rt-left h2 {
+    font-size: 25px;
+    margin-right: 7px;
+}
+
+.main .reviews .reviews-title .rt-left img {
+    height: 20px;
+    margin-right: 6px;
+}
+
+.main .reviews .reviews-title .rt-left p {
+    font-size: 14px;
+    color: #a7acb4;
+}
+
+
+.main .reviews .reviews-title .rt-left p span {
+    font-weight: bold;
+    color: #000;
+    font-size: 14px;
+    margin: 0 4px;
+}
+
+.main .reviews .reviews-title .rt-right {
+    color: rgb(77, 79, 84);
+    font-size: 14px;
+}    
+
+.main .reviews .reviews-title .rt-right p span {
+    margin-left: 15px;
+}
+
+.main .reviews .reviews-bot {
+    display: flex;
+}
+
+.main .reviews .reviews-bot .rb-left,
+.main .reviews .reviews-bot .rb-right {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-right: 60px;
+}
+
+.main .reviews .reviews-bot .rb-left .rbl-top,
+.main .reviews .reviews-bot .rb-right .rbl-top {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.main .reviews .reviews-bot .rb-left .rblt-top,
+.main .reviews .reviews-bot .rb-right .rblt-top {
+    display: flex;
+    align-items: self-start;
+    margin-bottom: 8px;
+}
+
+.main .reviews .reviews-bot .rb-left .rblt-top img,
+.main .reviews .reviews-bot .rb-right .rblt-top img {
+    margin-right: 14px;
+}
+
+.main .reviews .reviews-bot .rb-left .rblt-top .rbltt-right p,
+.main .reviews .reviews-bot .rb-right .rblt-top .rbltt-right p {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.main .reviews .reviews-bot .rb-left .rblt-top .rbltt-right p span,
+.main .reviews .reviews-bot .rb-right .rblt-top .rbltt-right p span {
+    font-weight: normal;
+    font-size: 13px;
+    margin-left: 10px;
+    color: #a7acb4;
+}
+
+.main .reviews .reviews-bot .rb-left .rblt-top .rbltt-right img,
+.main .reviews .reviews-bot .rb-right .rblt-top .rbltt-right img {
+    margin-top: 4px;
+}
+
+.main .reviews .reviews-bot .rb-left .rblt-bot p,
+.main .reviews .reviews-bot .rb-right .rblt-bot p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
