@@ -364,6 +364,10 @@ hr {
     margin-left: 15px;
 }
 
+.main .reviews .reviews-title .rt-right p span i {
+    margin-right: 16px;
+}
+
 .main .reviews .reviews-bot {
     display: flex;
 }
@@ -420,3 +424,78 @@ hr {
     line-height: 20px;
 }
 
+.main .related-product {
+    padding-top: 52px;
+    padding-bottom: 92px;
+}
+
+.main .related-product .rp-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 31px;
+}
+
+.main .related-product .rp-title h2 {
+    font-size: 25px;
+}
+
+.main .related-product .rp-title p {
+    color: rgb(77, 79, 84);
+    font-size: 14px;
+}
+
+.main .related-product .rp-title p span {
+    color: rgb(77, 79, 84);
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.main .related-product .rp-title p span i {
+    margin-right: 16px;
+}
+
+.main .related-product .rp-item {
+    border: 1.5px solid #F4F4F4;
+    border-radius: 5px;
+    width: 281px;
+}
+
+.main .related-product .rp-item .rpi-info {
+    padding: 16px 19px;
+}
+
+.main .related-product .rp-item .rpi-info .rpi-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin-bottom: 9px;
+}
+
+.main .related-product .rp-item .rpi-info .rpi-title i {
+    font-size: 20.8px;
+    color: #999EA8;
+}
+
+.main .related-product .rp-item .rpi-info .rpi-price {
+    margin-bottom: 9px;
+    font-weight: bold;
+    color: #00BDD6;
+}
+
+.main .related-product .rp-item .rpi-info .rpi-bot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main .related-product .rp-item .rpi-info .rpi-bot p {
+    font-size: 12px;
+    color: #9BA0AA;
+}
+
+.main .related-product .rp-bot {
+    display: flex;
+    justify-content: space-between;
+}
